@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_scenes/MiniGame.unity
+- path: Assets/Roll A Ball Game/_scenes/MiniGame.unity
   isLoaded: 1
   isActive: 1
