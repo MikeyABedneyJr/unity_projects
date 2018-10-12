@@ -8,6 +8,9 @@ public class PlayerControls : MonoBehaviour {
 
 	private float speed;
 
+	public Transform reticle;
+	public GameObject bulletPrefab;
+
 	// Use this for initialization
 	void Start () {
 		speed = 2;
