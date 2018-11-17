@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using Random = UnityEngine.Random; //Tells Random to use the Unity Engine random number generator.
+﻿using UnityEngine;
+using System;
+using System.Collections.Generic;       //Allows us to use Lists.
+using Random = UnityEngine.Random;      //Tells Random to use the Unity Engine random number generator.
 
-namespace Completed
+// namespace Completed
     
-{
+
     
     public class BoardManager : MonoBehaviour
     {
@@ -154,4 +153,3 @@ namespace Completed
             Instantiate (exit, new Vector3 (columns - 1, rows - 1, 0f), Quaternion.identity);
         }
     }
-}
